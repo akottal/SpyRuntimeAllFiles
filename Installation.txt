@@ -1,0 +1,6 @@
+Spy@Runtime-
+
+--The tool is run using the source code. There is no separate executable file.
+--The source code is located on the desktop.
+--The steps given in the README.txt is to be followed to use the tool.
+
