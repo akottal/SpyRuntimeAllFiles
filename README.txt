@@ -1,6 +1,6 @@
-This is a Virtual machine for the tool Spy@Runtime. To learn about the working and functionality of the tool, refer to the paper(link is provided)
+This is a Virtual machine for the tool Spy@Runtime.
 The example software used for Demo are - Storage service server software & RabbitMQ software.  
-As this, helps the user to Spy the software application they want, during run time, the user should replace the above two software files with the software applicatio they want to test.  
+As this tool helps the user to Spy the software application they want, during run time, the user should replace the above two software files with the software application they want to test.  
 
 
 Instructions to Run the example software, use the terminal- 
