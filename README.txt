@@ -5,32 +5,32 @@ As this tool helps the user to Spy the software application they want, during ru
 
 Instructions to Run the example software, use the terminal- 
 
---Use cd Desktop/spy-monitoring
+1.Use cd Desktop/spy-monitoring
 
---To run the server, run-
+2.To run the server, run-
 ./run-server.sh
 
--- In a different terminal, enter into Desktop/spy-monitoring and run- 
+3. In a different terminal, enter into Desktop/spy-monitoring and run- 
 sudo ./run-ipcollection-junit.sh config/parameters-test-storageservice.xml storageServer.StorageServerClientViewTest
 
--- For Model generation, run-
+4. For Model generation, run-
 ./run-spy-quick.sh -w it.polimi.dei.spy.wrappers.StorageServiceClientViewWrapper storageServerClient.StorageServiceClientView
 
--- To enable Monitoring facility, run-
+5. To enable Monitoring facility, run-
 ./run-monitoring.sh config/monitoring-storageservice.xml storageServerClient.StorageServiceClientGUIToMonitor
 
 --Give inputs as shown in the video, to check for its functionality
 
---In the server terminal, terminate the previous run using Cntrl-C and run-
+6.In the server terminal, terminate the previous run using Cntrl-C and run-
 ./run-server.sh
 
---To inject fault,
+7.To inject fault,
 Press 1 and enter
 
---In a new terminal, enter into Desktop/spy-monitoring and run- 
+8.In a new terminal, enter into Desktop/spy-monitoring and run- 
 ./run-monitoring.sh config/monitoring-storageservice.xml storageServerClient.StorageServiceClientGUIToMonitor
 
---Check for functionality after injecting fault, by given inputs as shown in the video
+9.Check for functionality after injecting fault, by given inputs as shown in the video
 
 
 
