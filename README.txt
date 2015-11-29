@@ -8,7 +8,7 @@ Instructions to Run in the terminal-
 ./run-server.sh
 
 -- In a different terminal, enter into Desktop/spy-monitoring and run- 
-./run-ipcollection-junit.sh config/parameters-test-storageservice.xml storageServer.StorageServerClientViewTest
+sudo ./run-ipcollection-junit.sh config/parameters-test-storageservice.xml storageServer.StorageServerClientViewTest
 
 -- For Model generation, run-
 ./run-spy-quick.sh -w it.polimi.dei.spy.wrappers.StorageServiceClientViewWrapper storageServerClient.StorageServiceClientView
