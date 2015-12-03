@@ -30,7 +30,7 @@ Press 1 and enter
 8.In a new terminal, enter into Desktop/spy-monitoring and run- 
 ./run-monitoring.sh config/monitoring-storageservice.xml storageServerClient.StorageServiceClientGUIToMonitor
 
-9.Check for functionality after injecting fault, by given inputs as shown in the video
+9.Check for functionality after injecting fault, by giving inputs as shown in the video
 
 
 
